@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VoyageVehicles</title>
+  <style>
+    /* Resetting default browser styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #343a40;
+      color: #fff;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav {
+      margin-top: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      padding: 5px 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #555;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .section-header {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #343a40;
+    }
+
+    .bus-listing {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .bus-card {
+      width: calc(33.33% - 20px);
+      margin-bottom: 20px;
+      padding: 20px;
+      border: 1px solid #dee2e6;
+      border-radius: 5px;
+      transition: box-shadow 0.3s ease;
+    }
+
+    .bus-card:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .bus-card img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+
+    .bus-details {
+      margin-top: 10px;
+    }
+
+    footer {
+      background-color: #343a40;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    footer p {
+      margin-bottom: 10px;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">VoyageVehicles</div>
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="container">
+
+  <section id="about" class="section">
+    <h2 class="section-header">About Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id elit vel orci dapibus eleifend. Nullam id urna et ex commodo tempus.</p>
+  </section>
+
+  <section id="services" class="section">
+    <h2 class="section-header">Our Services</h2>
+    <div class="bus-listing">
+      <div class="bus-card">
+        <img src="bus1.jpg" alt="Bus 1">
+        <div class="bus-details">
+          <h3>Bus Type 1</h3>
+          <p>Capacity: 50 passengers</p>
+          <p>Facilities: Air conditioning, Wi-Fi, Restroom</p>
+        </div>
+      </div>
+      <div class="bus-card">
+        <img src="bus2.jpg" alt="Bus 2">
+        <div class="bus-details">
+          <h3>Bus Type 2</h3>
+          <p>Capacity: 40 passengers</p>
+          <p>Facilities: TV screens, Reclining seats</p>
+        </div>
+      </div>
+      <div class="bus-card">
+        <img src="bus3.jpg" alt="Bus 3">
+        <div class="bus-details">
+          <h3>Bus Type 3</h3>
+          <p>Capacity: 30 passengers</p>
+          <p>Facilities: Mini bar, Entertainment system</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2 class="section-header">Contact Us</h2>
+    <p>Email: holidaybusrental.com</p>
+    <p>Phone: +1 (123) 456-7890</p>
+  </section>
+
+</div>
+
+<footer>
+  <p>&copy; 2024 Holiday Bus Rental. All rights reserved.</p>
+  <p>Follow us: <a href="#">Twitter</a> | <a href="#">Facebook</a> | <a href="#">Instagram</a></p>
+</footer>
+
+</body>
+</html>
